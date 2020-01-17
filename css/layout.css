@@ -4,40 +4,42 @@
 /*스크린 사이즈 컨트롤*/
 	@media all and (max-width:960px)
 	{
-	header {height:50px; margin-left:20px; margin-top:20px;}
+	h1 {font-size:25px;}
+	header {height:30px;}
 	footer {padding:10px;}
-	article {font-size:20px; font-weight:400; word-break:keep-all;}
+	section {font-size:20px; font-weight:400; word-break:keep-all;}
 	sup {font-size:10px;}
-	.proj {padding:10px;}
+	article {padding:0px;}
 }
 
 	@media all and (max-width:480px)
 	{
-	header {height:50px; margin-left:20px; margin-top:20px;}
+	h1 {font-size:25px;}
+	header {height:30px; }
 	footer {padding:10px;}
-	article {font-size:20px; font-weight:400; word-break:keep-all;}
+	section {font-size:20px; font-weight:400; word-break:keep-all;}
 	sup {font-size:10px;}
-	.proj {padding:10px;}
+	article {padding:0px;}
 }
 /*전체 레이아웃*/
 
 body {margin:0;
 }
-header {height:100px; margin-left:50px; margin-top: 50px;
+header {height:80px; margin-left:50px; margin-top: 50px;
 }
 
 /*본문*/
-.proj {background-color:#EEEEEE; padding:10px 50px 10px 50px;
+article {background-color:#EEEEEE; padding:30px;
 }
 
 /*Footer*/
-footer {height:300px; border:1px black; padding:10px 50px 10px 50px; float:left;
+footer {height:300px; border:1px black; padding:10px 30px 10px 30px; float:left;
 }
 hr {height:1px; background-color:#CCCCCC; border:none;
 }
 ul li {display:inline;
 }
-.about {width: 250px; float:left; margin-right:40px; padding:50px 0px 10px 0px;
+.about {width: 250px; float:left; margin-right:30px; padding:30px 0px 10px 0px;
 }
-.contact {width: 250px; float:left; padding:50px 0px 50px 0px;
+.contact {width: 250px; float:left; padding:30px 0px 50px 0px;
 }

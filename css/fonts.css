@@ -4,13 +4,13 @@
 /*전체 폰트 컨트롤*/
 	body {font-family: 'Gothic A1', sans-serif; color:#666; line-height:185%;
 }
-	article {font-family: 'Gothic A1', sans-serif; font-weight: 200; color:#000; font-size:35px;  word-break:normal; line-height:185%;
+	section {font-family: 'Gothic A1', sans-serif; font-weight: 200; color:#000; font-size:35px;  word-break:normal; line-height:185%;
 }
-	.projname {font-family: 'Gothic A1'; font-weight: 200; font-size:35px;
+	.projname {font-family: 'Gothic A1', sans-serif; font-weight: 200; font-size:35px;
 }
-	.projcate {font-family: 'Gothic A1'; font-weight: 700; font-size:15px;
+	.year {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:20px; line-height:300%;
 }
-	sup {font-size:12px; font-weight: 400; color:#666;
+	sup {font-size:15px; font-weight: 400; color:#666;
 }
 	h1 {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:35px;
 }
