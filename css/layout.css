@@ -1,6 +1,6 @@
 /*Designed By Seungyoon Yu*/
 @charset "utf-8";
-
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900&display=swap&subset=korean');
 /*스크린 사이즈 컨트롤*/
 	@media all and (max-width:960px)
 	{article {font-size:20px;}
@@ -8,7 +8,7 @@
 
 
 	@media all and (max-width:480px)
-	{article {font-size:15px;}
+	{article {font-size:15px; font-weight:400;}
 	sup {font-size:10px;}
 }
 /*전체 레이아웃*/
