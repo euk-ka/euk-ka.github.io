@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900&display=swap&subset=korean');
 /*스크린 사이즈 컨트롤*/
 	@media all and (max-width:960px)
-	{article {font-size:20px;}
+	{article {font-size:20px; font-weight:400;}
 }
 
 
