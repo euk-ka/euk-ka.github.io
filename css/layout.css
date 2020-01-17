@@ -4,8 +4,8 @@
 /*스크린 사이즈 컨트롤*/
 	@media all and (max-width:960px)
 	{article {font-size:20px; font-weight:400;}
+	sup {font-size:10px;}
 }
-
 
 	@media all and (max-width:480px)
 	{article {font-size:20px; font-weight:400;}
