@@ -8,7 +8,7 @@
 
 
 	@media all and (max-width:480px)
-	{article {font-size:15px; font-weight:400;}
+	{article {font-size:20px; font-weight:400;}
 	sup {font-size:10px;}
 }
 /*전체 레이아웃*/
@@ -29,7 +29,7 @@ hr {height:1px; background-color:#CCCCCC; border:none;
 }
 ul li {display:inline;
 }
-.about {width: 250px; float:left; margin-right:40px; padding:50px 0px 0px 0px;
+.about {width: 250px; float:left; margin-right:40px; padding:50px 0px 50px 0px;
 }
-.contact {width: 250px; float:left; padding:50px 0px 0px 0px;
+.contact {width: 250px; float:left; padding:50px 0px 50px 0px;
 }
