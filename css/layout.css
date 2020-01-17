@@ -6,7 +6,7 @@
 	{
 	header {height:50px; margin-left:20px; margin-top:20px;}
 	footer {padding:10px;}
-	article {font-size:20px; font-weight:400;}
+	article {font-size:20px; font-weight:400; word-break:keep-all;}
 	sup {font-size:10px;}
 	.proj {padding:10px;}
 }
@@ -15,7 +15,7 @@
 	{
 	header {height:50px; margin-left:20px; margin-top:20px;}
 	footer {padding:10px;}
-	article {font-size:20px; font-weight:400;}
+	article {font-size:20px; font-weight:400; word-break:keep-all;}
 	sup {font-size:10px;}
 	.proj {padding:10px;}
 }
@@ -37,7 +37,7 @@ hr {height:1px; background-color:#CCCCCC; border:none;
 }
 ul li {display:inline;
 }
-.about {width: 250px; float:left; margin-right:40px; padding:50px 0px 50px 0px;
+.about {width: 250px; float:left; margin-right:40px; padding:50px 0px 10px 0px;
 }
 .contact {width: 250px; float:left; padding:50px 0px 50px 0px;
 }
