@@ -9,8 +9,7 @@
 	.projcate {font-size:10px;}}
 /*Header*/
 
-body {
-	position:fixed; top:0; left:0; width:100%; height:100%; margin:0;
+body {margin:0;
 }
 header {height:100px; margin-left:50px; margin-top: 50px;
 }
