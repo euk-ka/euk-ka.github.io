@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900&display=swap&subset=korean');
+/*전체 폰트 컨트롤*/
+	body {font-family: 'Gothic A1', sans-serif; color:#666; line-height:185%;
+}
+	article {font-family: 'Gothic A1', sans-serif; font-weight: 200; color:#000; font-size:35px;  word-break:normal; line-height:185%;
+}
+	.projname {font-family: 'Gothic A1'; font-weight: 200; font-size:35px;
+}
+	.projcate {font-family: 'Gothic A1'; font-weight: 700; font-size:15px;
+}
+	sup {font-size:12px; font-weight: 400; color:#666;
+}
+	h1 {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:35px;
+}
+	h3 {font-family: 'Gothic A1'; font-weight: 700; font-size:15px;
+}
+	a:link {text-decoration:none; color:rgb(0,200,100);
+}
+	a:visited {text-decoration:none; color:rgb(0,200,100);
+}
+	a:hover {text-decoration:none; color:rgb(0,200,100);
+}
+	a:focus {text-decoration:none; color:rgb(0,200,100);
+}
+	a:active {text-decoration:none; color:rgb(100,0,200);
+}
+

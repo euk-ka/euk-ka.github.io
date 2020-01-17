@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900&display=swap&subset=korean');
+/*전체 여백 컨트롤*/
+
+body {margin:0px;}
+header {height:100px; margin-left:50px; margin-top: 50px;}
+.proj {background-color:#EEEEEE; padding:10px 50px 10px 50px;}
+/*Footer Layout*/
+footer {height:300px; border:1px black; padding:10px 50px 10px 50px; float:left;}
+hr {height:1px; background-color:#CCCCCC; border:none;}
+ul li {display:inline;}
+.about {width: 250px; float:left; margin-right:20px; padding:50px 0px 0px 0px;}
+.contact {width: 250px; float:left; margin-left:20px; padding:50px 0px 0px 0px;}
