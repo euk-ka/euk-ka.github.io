@@ -1,27 +1,24 @@
 /*Designed By Seungyoon Yu*/
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,500,700|Roboto:400,500,700&display=swap&subset=korean');
 /*전체 폰트 컨트롤*/
-	body {font-family: 'Gothic A1', sans-serif; color:#666;;
+	body {font-family: 'Roboto', 'Gothic A1', sans-serif; color:#666;;
 }
 
-	section {font-family: 'Gothic A1', sans-serif; font-weight: 700; color:#000; font-size:50px; 
-	line-height:185%; word-break:keep-all; line-height:165%; font-kerning:auto;
+	section {font-family: 'Roboto', 'Gothic A1', sans-serif; font-weight: 500; color:#000; font-size:47px; 
+	line-height:185%; word-break:keep-all; line-height:185%; font-kerning:auto;
 }
-	.projname {font-family: 'Gothic A1', sans-serif; font-weight: 200; font-size:25px;
+	.projname {font-family: 'Roboto', 'Gothic A1', sans-serif; font-weight: 200; font-size:25px;
 }
-	.works {font-family: 'Gothic A1', sans-serif; font-weight: 400; font-size:35px; line-height:165%;
+	.works {font-family: 'Roboto', 'Gothic A1', sans-serif; font-weight: 400; font-size:35px; line-height:165%;
 }
-	.year {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:20px; line-height:1em;
+	.year {font-family: 'Roboto', 'Gothic A1', sans-serif; font-weight: 500; font-size:20px; line-height:1em;
 }
-	.footertext {font-family: 'Gothic A1', sans-serif; font-weight:400; font-size:13px; line-height:175%;
+	.footertext {font-family: 'Roboto', 'Gothic A1', sans-serif; font-weight:400; font-size:15px; line-height:175%;
 }
-	sup {font-size:13px; font-weight: 400; color:#666;
+	sup {font-size:14px; font-weight: 400; color:#666; vertical-align:text-bottom
 }
-	h1 {font-family: 'Gothic A1', sans-serif; font-weight: 400; font-size:30px;
-}
-	h3 {font-family: 'Gothic A1'; font-weight: 700; font-size:15px;
-}
+
 	.ongoing {color:rgb(0,200,100);
 		font-weight:400;
 
