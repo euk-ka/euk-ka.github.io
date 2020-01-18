@@ -9,10 +9,12 @@
 	section {font-size:20px;
 			font-weight:400;
 			word-break:keep-all;
-			line-height:200%;}
+			line-height:200%;
+			padding:10px;}
 	sup {font-size:10px;}
 	article {padding:0px;}
 	section a:hover {text-underline-offset:5px;
+
 }
 }
 
@@ -24,7 +26,8 @@
 	section {font-size:20px;
 			font-weight:400;
 			word-break:keep-all;
-			line-height:200%;}
+			line-height:200%;
+			padding:10px;}
 	sup {font-size:10px;}
 	article {padding:0px;}
 	section a:hover {text-underline-offset:5px;
@@ -34,12 +37,19 @@
 
 body {margin:0;
 }
-header {height:150px;
+header {height:100px;
 		margin-left:50px;
 		margin-top: 20px;
-		margin-bottom: 20px;
-}
 
+}
+.title {margin-top:25px;
+		display:table-cell;
+		vertical-align:middle;
+		text-align:center;
+		font-size:12px; font-weight:400;
+		float:left;
+		position:absolute; top:75px; left:85px;
+}
 .title2 {margin-top:25px;
 		width: 100px;
 		height: 100px;
@@ -51,14 +61,16 @@ header {height:150px;
 		text-align:center;
 		font-size:12px; font-weight:400;
 		float:left;
+		position:absolute;
 
 }
 /*본문*/
-section {background-color:#EEEEEE;
+section {margin-top:50px;
+	background-color:rgb(247,247,247);
 }
 article {
-		padding-left:60px;
-		padding-top:20px;
+		padding-left:30px;
+		padding-top:0px;
 		padding-bottom:20px;
 		padding-right:30px;
 }
@@ -72,7 +84,7 @@ h3 {text-align:right;
 	font-size:15px;
 
 }
-.category:after{content:none}
+h3:after{content:none}
 /*Footer*/
 footer {height:300px;
 		padding:10px 30px 10px 30px;

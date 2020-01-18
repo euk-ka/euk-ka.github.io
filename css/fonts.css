@@ -5,7 +5,7 @@
 	body {font-family: 'Gothic A1', sans-serif; color:#666;;
 }
 
-	section {font-family: 'Gothic A1', sans-serif; font-weight: 200; color:#000; font-size:35px; 
+	section {font-family: 'Gothic A1', sans-serif; font-weight: 700; color:#000; font-size:50px; 
 	line-height:185%; word-break:keep-all; line-height:195%; font-kerning:auto;
 }
 	.projname {font-family: 'Gothic A1', sans-serif; font-weight: 200; font-size:25px;
@@ -16,23 +16,28 @@
 }
 	.footertext {font-family: 'Gothic A1', sans-serif; font-weight:400; font-size:13px; line-height:175%;
 }
-	sup {font-size:15px; font-weight: 400; color:#666;
+	sup {font-size:13px; font-weight: 400; color:#666;
 }
 	h1 {font-family: 'Gothic A1', sans-serif; font-weight: 400; font-size:30px;
 }
 	h3 {font-family: 'Gothic A1'; font-weight: 700; font-size:15px;
 }
 	.ongoing {color:rgb(0,200,100);
+		font-weight:400;
 
 }
 	.subtitle {color:black;
 			font-weight:700;
+			font-size:15px;
+			vertical-align:bottom;
 }
 	section a:link {text-decoration:none; color:rgb(245,200,75);
 }
 	section a:visited {text-decoration:none; color:rgb(245,200,75);
 }
 	section a:hover {text-decoration:underline; color:rgb(100,0,200);
+			-webkit-text-underline-offset:10px;
+			-ms-text-underline-offset:10px;
 			text-underline-offset:10px;
 			text-decoration-color:rgb(245,200,75);
 }
@@ -46,6 +51,8 @@
 	footer a:visited {text-decoration:none; color:#666;
 }
 	footer a:hover {text-decoration:underline; color:rgb(100,0,200);
+			-webkit-text-underline-offset:5px;
+			-ms-text-underline-offset:5px;
 			text-underline-offset:5px;
 			text-decoration-color:rgb(245,200,75);
 }
