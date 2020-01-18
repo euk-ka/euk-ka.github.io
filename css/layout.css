@@ -34,27 +34,30 @@
 
 body {margin:0;
 }
-header {height:100px;
+header {height:150px;
 		margin-left:50px;
 		margin-top: 20px;
 		margin-bottom: 20px;
 }
-.title {width: 175px;
-		height: 100px;
-		background-image:url(title.jpg);
-		background-size:100px;
-		background-repeat:no-repeat;
-		text-align:right;
-		display:table-cell;
-		vertical-align:middle;
-		color:rgb(100,0,200);
-		font-size:18px; font-weight:700;
 
+.title2 {margin-top:25px;
+		width: 100px;
+		height: 100px;
+		border-radius:50px;
+		display:table-cell;
+		vertical-align:text-bottom;
+		background-size:90px;
+		background:#FFFFFF;
+		box-shadow:10px 10px 10px rgb(245,210,0) inset;
+		text-align:right;
+		font-size:12px; font-weight:400;
+		float:left;
 }
 /*본문*/
 article {background-color:#EEEEEE;
 		padding:30px;
 }
+h3 {font-size:20px;}
 /*Footer*/
 footer {height:300px;
 		padding:10px 30px 10px 30px;

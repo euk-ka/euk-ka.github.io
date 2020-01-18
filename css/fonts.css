@@ -6,7 +6,7 @@
 }
 
 	section {font-family: 'Gothic A1', sans-serif; font-weight: 200; color:#000; font-size:35px; 
-	line-height:185%; word-break:keep-all; line-height:175%; font-kerning:auto;
+	line-height:185%; word-break:keep-all; line-height:195%; font-kerning:auto;
 }
 	.projname {font-family: 'Gothic A1', sans-serif; font-weight: 200; font-size:25px;
 }
@@ -24,7 +24,7 @@
 }
 	.ongoing {color:rgb(0,200,100);
 	}
-	section a:link {text-decoration:none; color:rgb(0,200,100);
+	section a:link {text-decoration:none; color:rgb(245,200,75);
 }
 	section a:visited {text-decoration:none; color:rgb(245,200,75);
 }
