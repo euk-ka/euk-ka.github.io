@@ -2,28 +2,49 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900&display=swap&subset=korean');
 /*전체 폰트 컨트롤*/
-	body {font-family: 'Gothic A1', sans-serif; color:#666; line-height:185%;
+	body {font-family: 'Gothic A1', sans-serif; color:#666;;
 }
-	section {font-family: 'Gothic A1', sans-serif; font-weight: 200; color:#000; font-size:35px;  word-break:normal; line-height:185%;
+
+	section {font-family: 'Gothic A1', sans-serif; font-weight: 200; color:#000; font-size:35px; 
+	line-height:185%; word-break:keep-all; line-height:175%; font-kerning:auto;
 }
-	.projname {font-family: 'Gothic A1', sans-serif; font-weight: 200; font-size:35px;
+	.projname {font-family: 'Gothic A1', sans-serif; font-weight: 200; font-size:25px;
 }
-	.year {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:20px; line-height:300%;
+	.works {font-family: 'Gothic A1', sans-serif; font-weight: 400; font-size:35px; line-height:175%;
+}
+	.year {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:20px; line-height:1em;
+}
+	.footertext {font-family: 'Gothic A1', sans-serif; font-weight:400; font-size:13px; line-height:175%;
 }
 	sup {font-size:15px; font-weight: 400; color:#666;
 }
-	h1 {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:35px;
+	h1 {font-family: 'Gothic A1', sans-serif; font-weight: 400; font-size:30px;
 }
 	h3 {font-family: 'Gothic A1'; font-weight: 700; font-size:15px;
 }
-	a:link {text-decoration:none; color:rgb(0,200,100);
+	.ongoing {color:rgb(0,200,100);
+	}
+	section a:link {text-decoration:none; color:rgb(0,200,100);
 }
-	a:visited {text-decoration:none; color:rgb(0,200,100);
+	section a:visited {text-decoration:none; color:rgb(245,200,75);
 }
-	a:hover {text-decoration:none; color:rgb(0,200,100);
+	section a:hover {text-decoration:underline; color:rgb(100,0,200);
+			text-underline-offset:10px;
+			text-decoration-color:rgb(245,200,75);
 }
-	a:focus {text-decoration:none; color:rgb(0,200,100);
+	section a:focus {text-decoration:none; color:rgb(0,200,100);
 }
-	a:active {text-decoration:none; color:rgb(100,0,200);
+	section a:active {text-decoration:none; color:rgb(100,0,200);
 }
 
+	footer a:link {text-decoration:none; color:#666;
+}
+	footer a:visited {text-decoration:none; color:#666;
+}
+	footer a:hover {text-decoration:underline; color:rgb(100,0,200);
+			text-underline-offset:5px;
+			text-decoration-color:rgb(245,200,75);
+}
+	footer a:focus {text-decoration:none; color:#666;
+}
+	footer a:active {text-decoration:none; color:#666;
