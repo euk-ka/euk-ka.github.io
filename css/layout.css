@@ -4,9 +4,9 @@
 /*스크린 사이즈 컨트롤*/
 	@media all and (max-width:960px)
 	{
-	header {height:30px;}
-	footer {padding:10px;}
-	section {font-size:20px;
+	header {height:30px; min-width:90%;}
+	footer {padding:10px; min-width:90%;}
+	section {font-size:20px; min-width:90%;
 			font-weight:400;
 			word-break:keep-all;
 			line-height:200%;
@@ -21,9 +21,10 @@
 	@media all and (max-width:480px)
 	{
 	h1 {font-size:25px; font-weight:700;}
-	header {height:30px; }
-	footer {padding:10px;}
+	header {height:30px; min-width:90%;}
+	footer {padding:10px; min-width:90%;}
 	section {font-size:20px;
+			min-width:90%;
 			font-weight:400;
 			word-break:keep-all;
 			line-height:200%;
@@ -37,8 +38,10 @@
 
 body {margin:0;
 }
-header {height:100px;
-		margin-left:50px;
+header {min-width:60%;  max-width:960px;
+	height:100px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: 20px;
 
 }
@@ -58,14 +61,15 @@ header {height:100px;
 		vertical-align:middle;
 		background:#FFFFFF;
 		box-shadow:10px 10px 10px rgb(245,210,0) inset;
-		text-align:center;
-		font-size:12px; font-weight:400;
 		float:left;
-		position:absolute;
+
 
 }
 /*본문*/
-section {margin-top:50px;
+section {min-width:60%; max-width:960px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
 	background-color:rgb(247,247,247);
 }
 article {
@@ -86,21 +90,27 @@ h3 {text-align:right;
 }
 h3:after{content:none}
 /*Footer*/
-footer {height:300px;
+
+footer {min-width:60%; max-width:960px;
+		height:300px;
+		margin-left:auto;
+		margin-right:auto;
 		padding:10px 30px 10px 30px;
-		float:left;
+
+		text-align:left;
 }
+
 hr {height:1px;
 	background-color:#CCCCCC;
 	border:none;
 }
 
-.about {width: 250px;
-		float:left;
+.about { width:250px;
+float:left;
 		margin-right:30px;
 		padding:30px 0px 10px 0px;
 }
-.contact {width: 250px;
-		float:left;
+.contact { width:250px;
+float:left;
 		padding:30px 0px 50px 0px;
 }

@@ -6,11 +6,11 @@
 }
 
 	section {font-family: 'Gothic A1', sans-serif; font-weight: 700; color:#000; font-size:50px; 
-	line-height:185%; word-break:keep-all; line-height:195%; font-kerning:auto;
+	line-height:185%; word-break:keep-all; line-height:165%; font-kerning:auto;
 }
 	.projname {font-family: 'Gothic A1', sans-serif; font-weight: 200; font-size:25px;
 }
-	.works {font-family: 'Gothic A1', sans-serif; font-weight: 400; font-size:35px; line-height:175%;
+	.works {font-family: 'Gothic A1', sans-serif; font-weight: 400; font-size:35px; line-height:165%;
 }
 	.year {font-family: 'Gothic A1', sans-serif; font-weight: 700; font-size:20px; line-height:1em;
 }
@@ -29,7 +29,7 @@
 	.subtitle {color:black;
 			font-weight:700;
 			font-size:15px;
-			vertical-align:bottom;
+
 }
 	section a:link {text-decoration:none; color:rgb(245,200,75);
 }
