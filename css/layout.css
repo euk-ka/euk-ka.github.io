@@ -45,19 +45,34 @@ header {height:150px;
 		height: 100px;
 		border-radius:50px;
 		display:table-cell;
-		vertical-align:text-bottom;
-		background-size:90px;
+		vertical-align:middle;
 		background:#FFFFFF;
 		box-shadow:10px 10px 10px rgb(245,210,0) inset;
-		text-align:right;
+		text-align:center;
 		font-size:12px; font-weight:400;
 		float:left;
+
 }
 /*본문*/
-article {background-color:#EEEEEE;
-		padding:30px;
+section {background-color:#EEEEEE;
 }
-h3 {font-size:20px;}
+article {
+		padding-left:60px;
+		padding-top:20px;
+		padding-bottom:20px;
+		padding-right:30px;
+}
+h3 {text-align:right;
+	-webkit-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	position:absolute; top:287px; left:-70px;
+	display:table-cell;
+	width:200px;
+	font-size:15px;
+
+}
+.category:after{content:none}
 /*Footer*/
 footer {height:300px;
 		padding:10px 30px 10px 30px;
@@ -67,6 +82,7 @@ hr {height:1px;
 	background-color:#CCCCCC;
 	border:none;
 }
+
 .about {width: 250px;
 		float:left;
 		margin-right:30px;

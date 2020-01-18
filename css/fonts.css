@@ -23,7 +23,11 @@
 	h3 {font-family: 'Gothic A1'; font-weight: 700; font-size:15px;
 }
 	.ongoing {color:rgb(0,200,100);
-	}
+
+}
+	.subtitle {color:black;
+			font-weight:700;
+}
 	section a:link {text-decoration:none; color:rgb(245,200,75);
 }
 	section a:visited {text-decoration:none; color:rgb(245,200,75);
