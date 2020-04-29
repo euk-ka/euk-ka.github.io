@@ -10,10 +10,10 @@ function setup() {
 }
 
 function draw() {
-  background(40);
+  background(0);
   system.addParticle();
   system.run();
-
+text('')
 }
 
 let Particle = function(position) {
