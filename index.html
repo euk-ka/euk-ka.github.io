@@ -1,27 +1,90 @@
-<html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> EVERY TEARDROP IS A WATERFALL </title>
-  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
-  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="p4_Seungyoon_Yu_20150440.js"></script>
-  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-
-  <!-- This line removes any default padding and style.
-       You might only need one of these values set. -->
-  <style> body { padding: 0; margin: 0; background-color: 0;} 
-		p {color:white; font-family:sans-serif, helvetica;
-		text-align:center; font-size:14px; line-height:1.6em;} </style>
+<meta charset="UTF-8">
+<title>XXX</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="blotter.min.js"></script>
+<script src="channelSplitMaterial.js"></script>
 </head>
-
 <body>
-	<p> <br> <br>
-This light, I swear you emerge blinking into
-To tell me it's alright <br>
+    <script>
+        var text = new Blotter.Text(" YOU ARE A -", {
+          family : "serif",
+          size : 100,
+          fill : "#171717"
+        });
+  
+        var material = new Blotter.ChannelSplitMaterial();
+  
+        var blotter = new Blotter(material, { texts : text });
+  
+        var scope = blotter.forText(text);
+  
+        scope.appendTo(document.body);
+      </script>
+  <br>
+    <script>
+        var text = new Blotter.Text(" BORDERLESS -", {
+          family : "serif",
+          size : 100,
+          fill : "#171717"
+        });
+  
+        var material = new Blotter.ChannelSplitMaterial();
+  
+        var blotter = new Blotter(material, { texts : text });
+  
+        var scope = blotter.forText(text);
+  
+        scope.appendTo(document.body);
+      </script>
+  <br>
+    <script>
+      var text = new Blotter.Text(" GRADATION -", {
+        family : "serif",
+        size : 100,
+        fill : "#171717"
+      });
 
-As we soar walls, every siren is a symphony, and every tear's a waterfall <br>
-<b>Coldplay - Every Teardrop is a Waterfall</b>
- </p>
+      var material = new Blotter.ChannelSplitMaterial();
+
+      var blotter = new Blotter(material, { texts : text });
+
+      var scope = blotter.forText(text);
+
+      scope.appendTo(document.body);
+    </script>
+<br>
+<script>
+    var text = new Blotter.Text(" SO DON'T FIX -", {
+      family : "serif",
+      size : 100,
+      fill : "#171717"
+    });
+
+    var material = new Blotter.ChannelSplitMaterial();
+
+    var blotter = new Blotter(material, { texts : text });
+
+    var scope = blotter.forText(text);
+
+    scope.appendTo(document.body);
+  </script>
+  <br>
+  <script>
+    var text = new Blotter.Text(" YOURSELF -", {
+      family : "serif",
+      size : 100,
+      fill : "#171717"
+    });
+
+    var material = new Blotter.ChannelSplitMaterial();
+
+    var blotter = new Blotter(material, { texts : text });
+
+    var scope = blotter.forText(text);
+
+    scope.appendTo(document.body);
+  </script>
 </body>
 </html>
