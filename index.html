@@ -1,90 +1,18 @@
-<html lang="ko">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>XXX</title>
-<link rel="stylesheet" type="text/css" href="main.css">
-<script src="blotter.min.js"></script>
-<script src="channelSplitMaterial.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="DOOM.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <style> body { padding: 0; margin: 0; } </style>
 </head>
+
 <body>
-    <script>
-        var text = new Blotter.Text(" YOU ARE A -", {
-          family : "serif",
-          size : 100,
-          fill : "#171717"
-        });
-  
-        var material = new Blotter.ChannelSplitMaterial();
-  
-        var blotter = new Blotter(material, { texts : text });
-  
-        var scope = blotter.forText(text);
-  
-        scope.appendTo(document.body);
-      </script>
-  <br>
-    <script>
-        var text = new Blotter.Text(" BORDERLESS -", {
-          family : "serif",
-          size : 100,
-          fill : "#171717"
-        });
-  
-        var material = new Blotter.ChannelSplitMaterial();
-  
-        var blotter = new Blotter(material, { texts : text });
-  
-        var scope = blotter.forText(text);
-  
-        scope.appendTo(document.body);
-      </script>
-  <br>
-    <script>
-      var text = new Blotter.Text(" GRADATION -", {
-        family : "serif",
-        size : 100,
-        fill : "#171717"
-      });
-
-      var material = new Blotter.ChannelSplitMaterial();
-
-      var blotter = new Blotter(material, { texts : text });
-
-      var scope = blotter.forText(text);
-
-      scope.appendTo(document.body);
-    </script>
-<br>
-<script>
-    var text = new Blotter.Text(" SO DON'T FIX -", {
-      family : "serif",
-      size : 100,
-      fill : "#171717"
-    });
-
-    var material = new Blotter.ChannelSplitMaterial();
-
-    var blotter = new Blotter(material, { texts : text });
-
-    var scope = blotter.forText(text);
-
-    scope.appendTo(document.body);
-  </script>
-  <br>
-  <script>
-    var text = new Blotter.Text(" YOURSELF -", {
-      family : "serif",
-      size : 100,
-      fill : "#171717"
-    });
-
-    var material = new Blotter.ChannelSplitMaterial();
-
-    var blotter = new Blotter(material, { texts : text });
-
-    var scope = blotter.forText(text);
-
-    scope.appendTo(document.body);
-  </script>
 </body>
 </html>
